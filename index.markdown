@@ -4,4 +4,5 @@
 
 layout: home
 ---
-<a href="dchen327.github.io/resume.pdf" target="_blank">Resume</a>
+<!-- <a href="dchen327.github.io/assets/resume.pdf" target="_blank">Resume</a> -->
+[Resume]({{ site.url }}/assets/resume.pdf)
