@@ -3,7 +3,7 @@ layout: splash
 classes:
   - landing
 
-row1:
+feature_row:
   - image_path: /assets/images/sample_img1.jpg
     title: "Example Title 1"
   
@@ -13,7 +13,6 @@ row1:
   - image_path: /assets/images/sample_img3.jpg
     title: "Example Title 3"
 
-row2:
   - image_path: /assets/images/sample_img3.jpg
     alt: "placeholder img 1"
     title: "Example Title 1"
@@ -31,5 +30,4 @@ row2:
 
 ---
 <!-- [Resume](/assets/resume.pdf) -->
-{% include feature_row id="row1" %}
-{% include feature_row id="row2" %}
+{% include feature_row %}
