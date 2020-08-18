@@ -4,3 +4,4 @@
 
 layout: home
 ---
+<a href="dchen327.github.io/resume.pdf" target="_blank">Resume</a>
