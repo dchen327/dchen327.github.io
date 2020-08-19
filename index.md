@@ -1,7 +1,9 @@
 ---
-layout: splash
+# layout: splash
 classes:
   - landing
+
+title: David Chen
 
 excerpt: AI Enthusiast, Avid Self-Studyer
 header:
@@ -40,7 +42,7 @@ feature_row_6:
     title: "Example Title 3"
     excerpt: "Content 3"
 ---
-### David Chen
+<h1 style="font-size: 80px; text-align: center">Projects</h1>
 {% include feature_row id="feature_row_1" type="left" %}
 {% include feature_row id="feature_row_2" type="right" %}
 {% include feature_row id="feature_row_3" type="left" %}
