@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/site-header.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Resume"
+    - label: "Resume" 
       url: "/assets/resume.pdf"
 
 num_feature_rows: 6
@@ -18,7 +18,10 @@ num_feature_rows: 6
 feature_row_1:
   - image_path: /assets/images/ruzzle-solver.png
     title: "RUZZLE SOLVER"
-    excerpt: "Ruzzle, a mobile word finding game in a 4x4 grid, can be easily solved with DFS. However, this Python program not only solves a provided board, but grabs letters with OCR, solves with prefix tries, and allows for full automation (with screen drawing) on a rooted Android device."
+    excerpt: Designed a program to play Ruzzle, a mobile word finding game in a 4x4 grid. Utilized optical character recognition, custom trained models, graph theory, and Android automation.
+    url: https://github.com/dchen327/ruzzle-solver
+    btn_label: Source Code
+    btn_class: "btn--large btn--success"
 
 feature_row_2:
   - image_path: /assets/images/sample_img2.jpg
