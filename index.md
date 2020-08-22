@@ -37,19 +37,28 @@ feature_row_3:
   - image_path: /assets/images/isola-game.png
     title: "Isola Game"
     excerpt: An easy to learn 2 player turned based game, Isola involves players moving and destroying blocks in an attempt to isolate the opposing player. After learning about the minimax algorithm in Stanford CS221 (Intro to AI), I decided to implement it in a more difficult setting, since Isola requires 2 moves per turn rather than per alternating moves.
+    url: https://github.com/dchen327/isola-game
+    btn_label: Source Code
+    btn_class: "btn--large btn--success"
 
 feature_row_4:
-  - image_path: /assets/images/sample_img3.jpg
-    title: "Example Title 1"
-    excerpt: Content goes here?
-
+  - image_path: /assets/images/quizlet-scatter.png
+    title: "Quizlet Scatter"
+    excerpt: Quizlet Scatter is a fun flashcard matching mini-game. Using a combination of selenium webdriver and PyAutoGui, this program grabs all pairs and matches them as quickly as possible.
+    url: https://github.com/dchen327/quizlet-scatter
+    btn_label: Source Code
+    btn_class: "btn--large btn--success"
 feature_row_5:
-  - image_path: /assets/images/typeracer.jpg
-    title: "Typeracer Bot"
+  - image_path: /assets/images/typeracer.png
+    title: "TypeRacer Bot"
+    excerpt: A fun usage of selenium webdriver for web automation, this script grabs and inputs text at high speeds in TypeRacer.
+    url: https://github.com/dchen327/typing-test-bots
+    btn_label: Source Code
+    btn_class: "btn--large btn--success"
 feature_row_6:
   - image_path: /assets/images/sample_img2.jpg
-    title: "Example Title 3"
-    excerpt: "Content 3"
+    title: "Ambient Light Color Adjuster"
+    excerpt: "epic"
 ---
 
 <h1 id="About" style="font-size: 3em; text-align: center">About Me</h1>
