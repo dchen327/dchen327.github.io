@@ -8,7 +8,8 @@ author-profile: true
 
 excerpt: AI Enthusiast, Avid Self-Studyer
 header:
-  overlay_image: /assets/images/site-header.jpg
+  overlay_image: /assets/images/site-header5.jpg
+  overlay_filter: 0.3
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Resume"
