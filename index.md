@@ -4,7 +4,6 @@ classes:
   - landing
 
 title: David Chen
-author-profile: true
 
 excerpt: Artificial Intelligence Enthusiast, Self-Taught Programmer
 header:
