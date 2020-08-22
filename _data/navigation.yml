@@ -10,3 +10,5 @@ main:
     url: /learning-material/
   - title: "Favorite Books"
     url: /favorite-books/
+  - title: "Resume"
+    url: /assets/resume.pdf
