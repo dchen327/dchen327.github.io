@@ -17,7 +17,7 @@ header:
 
 num_feature_rows: 6
 
-feature_row_1:
+fr_ruzzle:
   - image_path: /assets/images/ruzzle-solver.png
     title: "RUZZLE SOLVER"
     excerpt: Designed a program to play Ruzzle, a mobile word finding game in a 4x4 grid. Utilized optical character recognition, custom trained models, graph theory, and Android automation.
@@ -25,7 +25,7 @@ feature_row_1:
     btn_label: Source Code
     btn_class: "btn--large btn--success"
 
-feature_row_2:
+fr_arduino:
   - image_path: /assets/images/arduino-car.jpg
     title: "ARDUINO OBSTACLE AVOIDER"
     excerpt: My first dabble into the world of robotics, this Arduino car uses an ultrasonic sensor to avoid bumping into obstacles.
@@ -33,7 +33,7 @@ feature_row_2:
     btn_label: Source Code
     btn_class: "btn--large btn--success"
 
-feature_row_3:
+fr_isola:
   - image_path: /assets/images/isola-game.png
     title: "Isola Game"
     excerpt: An easy to learn 2 player turned based game, Isola involves players moving and destroying blocks in an attempt to isolate the opposing player. After learning about the minimax algorithm in Stanford CS221 (Intro to AI), I decided to implement it in a more difficult setting, since Isola requires 2 moves per turn rather than per alternating moves.
@@ -41,25 +41,33 @@ feature_row_3:
     btn_label: Source Code
     btn_class: "btn--large btn--success"
 
-feature_row_4:
+fr_quizlet:
   - image_path: /assets/images/quizlet-scatter.png
     title: "Quizlet Scatter"
     excerpt: Quizlet Scatter is a fun flashcard matching mini-game. Using a combination of selenium webdriver and PyAutoGui, this program grabs all pairs and matches them as quickly as possible.
     url: https://github.com/dchen327/quizlet-scatter
     btn_label: Source Code
     btn_class: "btn--large btn--success"
-feature_row_5:
+fr_typeracer:
   - image_path: /assets/images/typeracer.png
     title: "TypeRacer Bot"
     excerpt: A fun usage of selenium webdriver for web automation, this script grabs and inputs text at high speeds in TypeRacer.
     url: https://github.com/dchen327/typing-test-bots
     btn_label: Source Code
     btn_class: "btn--large btn--success"
-feature_row_6:
+fr_ambient:
   - image_path: /assets/images/ambient-light-color-adjuster.png
     title: "Ambient Light Color Adjuster"
     excerpt: "After purchasing a color changing lightbulb to use a sunrise simulator alarm clock, I decided to have some fun with adjusting ambient light to match a game's dominant color."
     url: https://github.com/dchen327/ambient-light-color-adjuster
+    btn_label: Source Code
+    btn_class: "btn--large btn--success"
+
+fr_cartpole:
+  - image_path: /assets/images/cartpole.png
+    title: "CartPole RL"
+    excerpt: "After learning about Reinforcement Learning in Stanford CS221 (blackjack HW), I applied vanilla Q-learning with epsilon-greedy to OpenAI Gym's CartPole problem. I was able to meet the criterion for solving the problem without any advanced methods such as Deep Q Networks or Policy Gradient."
+    url: https://github.com/dchen327/cartpole-rl
     btn_label: Source Code
     btn_class: "btn--large btn--success"
 ---
@@ -73,9 +81,10 @@ Or look at some of the free <a href="/learning-material">learning materials</a> 
 {: .text-center}
 <h1 id="Projects" style="font-size: 3em; text-align: center">Projects</h1>
 {{ page.num_feature_rows }}
-{% include feature_row id="feature_row_1" type="left" %}
-{% include feature_row id="feature_row_2" type="right" %}
-{% include feature_row id="feature_row_3" type="left" %}
-{% include feature_row id="feature_row_4" type="right" %}
-{% include feature_row id="feature_row_5" type="left" %}
-{% include feature_row id="feature_row_6" type="right" %}
+{% include feature_row id="fr_ruzzle" type="left" %}
+{% include feature_row id="fr_isola" type="right" %}
+{% include feature_row id="fr_cartpole" type="left" %}
+{% include feature_row id="fr_quizlet" type="right" %}
+{% include feature_row id="fr_typeracer" type="left" %}
+{% include feature_row id="fr_ambient" type="right" %}
+{% include feature_row id="fr_arduino" type="left" %}
