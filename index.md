@@ -66,7 +66,9 @@ feature_row_6:
 
 <h1 id="About" style="font-size: 3em; text-align: center">About Me</h1>
 <p style="max-width: 70%; margin:auto; padding-bottom: 10px">
-Hi! I'm a Computer Science and Math lover, and I'm currently a senior at Princeton High School. Feel free to contact me at the following places and check out some of my projects below!
+Hi! I'm a Computer Science and Math lover, and I'm currently a senior at Princeton High School. <br>
+Feel free to check out some of my projects below! <br>
+Or look at some of the free <a href="/learning-material">learning materials</a> I've used, or <a href="books">books</a> I've read.
 </p>
 {: .text-center}
 <h1 id="Projects" style="font-size: 3em; text-align: center">Projects</h1>

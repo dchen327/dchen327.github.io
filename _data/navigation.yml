@@ -8,7 +8,7 @@ main:
     url: /#Projects
   - title: "Learning Material"
     url: /learning-material/
-  - title: "Favorite Books"
-    url: /favorite-books/
+  - title: "Books/Audiobooks"
+    url: /books/
   - title: "Resume"
     url: /assets/resume.pdf
