@@ -18,7 +18,7 @@ num_feature_rows: 6
 
 fr_ruzzle:
   - image_path: /assets/images/ruzzle-solver.png
-    title: "RUZZLE SOLVER"
+    title: "Ruzzle Solver"
     excerpt: Designed a program to play Ruzzle, a mobile word finding game in a 4x4 grid. Utilized optical character recognition, custom trained models, graph theory, and Android automation.
     url: https://github.com/dchen327/ruzzle-solver
     btn_label: Source Code
@@ -26,7 +26,7 @@ fr_ruzzle:
 
 fr_arduino:
   - image_path: /assets/images/arduino-car2.jpg
-    title: "ARDUINO OBSTACLE AVOIDER"
+    title: "Arduino Obstacle Avoider"
     excerpt: My first dabble into the world of robotics, this Arduino car uses an ultrasonic sensor to avoid bumping into obstacles.
     url: https://github.com/dchen327/Arduino-Obstacle-Avoiding-Car
     btn_label: Source Code
