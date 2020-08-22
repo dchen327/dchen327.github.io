@@ -2,7 +2,7 @@
 layout: single
 ---
 
-Key - **Bold: Favorite**, _Italics: In Progress_
+Here are some of the books I've read (or listened to), mostly throughout high school. I've **bolded** my favorites, and anything I'm currently reading is _italicized_.
 
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Non-Fiction</h1>
 1. **How to Win Friends and Influence People - Dale Carnegie**
@@ -41,6 +41,7 @@ Key - **Bold: Favorite**, _Italics: In Progress_
 34. The World According to Physics - Jim Al-Khalili
 35. The Little Book That Still Beats the Market - Joel Greenblatt
 36. **Start With Why - Simon Sinek**
+37. *The Economics of Uncertainty - The Great Courses*
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Fiction</h1>
 1. **The Martian - Andy Weir**
 2. **Ready Player One - Ernest Cline**
