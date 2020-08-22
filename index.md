@@ -56,9 +56,12 @@ feature_row_5:
     btn_label: Source Code
     btn_class: "btn--large btn--success"
 feature_row_6:
-  - image_path: /assets/images/sample_img2.jpg
+  - image_path: /assets/images/ambient-light-color-adjuster.png
     title: "Ambient Light Color Adjuster"
-    excerpt: "epic"
+    excerpt: "After purchasing a color changing lightbulb to use a sunrise simulator alarm clock, I decided to have some fun with adjusting ambient light to match a game's dominant color."
+    url: https://github.com/dchen327/ambient-light-color-adjuster
+    btn_label: Source Code
+    btn_class: "btn--large btn--success"
 ---
 
 <h1 id="About" style="font-size: 3em; text-align: center">About Me</h1>
