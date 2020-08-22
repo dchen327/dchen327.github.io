@@ -72,11 +72,25 @@ fr_cartpole:
 ---
 
 <h1 id="About" style="font-size: 3em; text-align: center">About Me</h1>
-<p style="max-width: 80%; margin:auto; padding-bottom: 10px">
-Hi! I'm a Computer Science and Math lover, and I'm currently a senior at Princeton High School. <br>
-Feel free to check out some of my projects below! <br>
-Or read about free <a href="/learning-material">learning materials</a> I've used, or <a href="books">books</a> I've read.
+<p style="max-width: 80%; margin:auto; padding-bottom: 20px">
+Hi! I'm a Computer Science and Math lover, and am very interested in AI/ML<br>
+I like writing fun programs in Python. Feel free to check out some of my projects below! <br>
+Or read about the many free <a href="/learning-material">learning materials</a> I've used, and <a href="books">books</a> I've read beginning in high school. <br>
+I'm currently a senior, studying at <i class="fas fa-university"></i> Princeton High School in New Jersey.
 </p>
+{: .text-center}
+<a href="https://github.com/dchen327" style="padding: 10px; margin: 20px; text-decoration: none">
+  <i class="fab fa-github fa-5x"></i>
+</a>
+<a href="mailto:davidc3287@gmail.com" style="padding: 10px; margin: 20px; text-decoration: none">
+  <i class="fas fa-envelope fa-5x"></i>
+</a>
+<a href="https://www.linkedin.com/in/david-chen-0452851b4/" style="padding: 10px; margin: 20px; text-decoration: none">
+  <i class="fab fa-linkedin fa-5x"></i>
+</a>
+<a href="https://www.kaggle.com/thelastprime" style="padding: 10px; margin: 20px; text-decoration: none">
+  <i class="fab fa-kaggle fa-5x"></i>
+</a>
 {: .text-center}
 <h1 id="Projects" style="font-size: 3em; text-align: center">Projects</h1>
 {% include feature_row id="fr_ruzzle" type="left" %}
