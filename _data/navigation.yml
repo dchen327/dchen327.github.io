@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: Home
-    url: https://dchen327.github.io
-  - title: About
+  - title: "Home"
+    url: /
+  - title: "About"
     url: /#About
-  - title: Projects
+  - title: "Projects"
     url: /#Projects
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Learning Material"
+    url: /learning-material/
+  - title: "Favorite Books"
+    url: /favorite-books/

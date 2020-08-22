@@ -6,9 +6,9 @@ classes:
 title: David Chen
 author-profile: true
 
-excerpt: AI Enthusiast, Avid Self-Studyer
+excerpt: Artificial Intelligence Enthusiast, Avid Self-Studyer
 header:
-  overlay_image: /assets/images/site-header5.jpg
+  overlay_image: /assets/images/site-header2.jpg
   overlay_filter: 0.3
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
@@ -48,10 +48,10 @@ feature_row_6:
     excerpt: "Content 3"
 ---
 
-<h1 id="About" style="font-size: 3.5em; text-align: center">About Me</h1>
+<h1 id="About" style="font-size: 3em; text-align: center">About Me</h1>
 Hi! I'm a Computer Science and Math lover, and I'm currently a senior at Princeton High School. Check out some of my projects below!
 {: .text-center}
-<h1 id="Projects" style="font-size: 3.5em; text-align: center">Projects</h1>
+<h1 id="Projects" style="font-size: 3em; text-align: center">Projects</h1>
 {% include feature_row id="feature_row_1" type="left" %}
 {% include feature_row id="feature_row_2" type="right" %}
 {% include feature_row id="feature_row_3" type="left" %}
