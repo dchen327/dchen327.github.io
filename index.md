@@ -80,7 +80,6 @@ Or look at some of the free <a href="/learning-material">learning materials</a> 
 </p>
 {: .text-center}
 <h1 id="Projects" style="font-size: 3em; text-align: center">Projects</h1>
-{{ page.num_feature_rows }}
 {% include feature_row id="fr_ruzzle" type="left" %}
 {% include feature_row id="fr_isola" type="right" %}
 {% include feature_row id="fr_cartpole" type="left" %}
