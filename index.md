@@ -6,7 +6,7 @@ classes:
 title: David Chen
 author-profile: true
 
-excerpt: Artificial Intelligence Enthusiast, Avid Self-Studyer
+excerpt: Artificial Intelligence Enthusiast, Self-Taught Programmer
 header:
   overlay_image: /assets/images/site-header2.jpg
   overlay_filter: 0.3
