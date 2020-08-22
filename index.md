@@ -25,7 +25,7 @@ fr_ruzzle:
     btn_class: "btn--large btn--success"
 
 fr_arduino:
-  - image_path: /assets/images/arduino-car.jpg
+  - image_path: /assets/images/arduino-car2.jpg
     title: "ARDUINO OBSTACLE AVOIDER"
     excerpt: My first dabble into the world of robotics, this Arduino car uses an ultrasonic sensor to avoid bumping into obstacles.
     url: https://github.com/dchen327/Arduino-Obstacle-Avoiding-Car
@@ -55,7 +55,7 @@ fr_typeracer:
     btn_label: Source Code
     btn_class: "btn--large btn--success"
 fr_ambient:
-  - image_path: /assets/images/ambient-light-color-adjuster.png
+  - image_path: /assets/images/ambient-light-color-adjuster2.png
     title: "Ambient Light Color Adjuster"
     excerpt: "After purchasing a color changing lightbulb to use a sunrise simulator alarm clock, I decided to have some fun with adjusting ambient light to match a game's dominant color."
     url: https://github.com/dchen327/ambient-light-color-adjuster
