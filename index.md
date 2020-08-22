@@ -76,7 +76,7 @@ fr_cartpole:
 <p style="max-width: 80%; margin:auto; padding-bottom: 10px">
 Hi! I'm a Computer Science and Math lover, and I'm currently a senior at Princeton High School. <br>
 Feel free to check out some of my projects below! <br>
-Or look at some of the free <a href="/learning-material">learning materials</a> I've used, or <a href="books">books</a> I've read.
+Or read about free <a href="/learning-material">learning materials</a> I've used, or <a href="books">books</a> I've read.
 </p>
 {: .text-center}
 <h1 id="Projects" style="font-size: 3em; text-align: center">Projects</h1>
