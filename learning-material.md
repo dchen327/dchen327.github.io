@@ -4,8 +4,11 @@ layout: single
 
 <h1 style="font-size: 3em; text-align: center">Stanford AI Courses</h1>
 - CS221: Artificial Intelligence: Principles and Techniques
+  - Starting with reflex based models and progressing through state-based, variable-based, and logic, CS221 is an amazing introductory AI class that covers a bit of everything (not all AI is neural networks!) The class is very organized: usually each week has 2 80min lectures, a section review lecture, and a homework assignment.
 - CS231n: Convolutional Neural Networks for Visual Recognition
+  - While focused mainly on CNNs for computer vision, CS231n provides all the tips and tricks needed for successful deep learning. Early assignments involve implementing many commonly used DL layers, while later assignments involve fun topics like RNNs and GANs. 
 - CS224n: Natural Language Processing with Deep Learning
+  - Currently in progress. 
 
 <h1 style="font-size: 3em; text-align: center">Additional Math/AI/ML Courses</h1>
 - Intro to Machine Learning - Coursera (Andrew Ng)
@@ -21,5 +24,5 @@ layout: single
 - Multivariable Calculus - Stewart Calculus - James Stewart
 - Linear Algebra - Linear Algebra and Its Applications - David C. Lay
 - Number Theory/Combinatorics - AOPS and competition math
-- Data structures and algorithms - competitive programming
+- Data Structures and Algorithms - competitive programming
 - Statistics - AP Statistics
