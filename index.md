@@ -75,7 +75,7 @@ fr_cartpole:
 <p style="max-width: 80%; margin:auto; padding-bottom: 20px">
 Hi! I'm a Computer Science and Math lover, and am very interested in AI/ML<br>
 I like writing fun programs in Python. Feel free to check out some of my projects below! <br>
-Or read about the many free <a href="/learning-material">learning materials</a> I've used, and <a href="books">books</a> I've read beginning in high school. <br>
+Or read about the many <a href="/learning-material">learning materials</a> I've used, and <a href="books">books</a> I've read beginning in high school. <br>
 I'm currently a senior, studying at <i class="fas fa-university"></i> Princeton High School in New Jersey.
 </p>
 {: .text-center}

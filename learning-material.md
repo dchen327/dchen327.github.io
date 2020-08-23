@@ -16,3 +16,10 @@ layout: single
 <h1 style="font-size: 3em; text-align: center">Miscellaneous Online Courses</h1>
 - The Science of Well-Being - Coursera - Yale
 - The Bits and Bytes of Computer Networking - Coursera - Google
+
+<h1 style="font-size: 3em; text-align: center">AI/ML Prerequisites</h1>
+- Multivariable Calculus - Stewart Calculus - James Stewart
+- Linear Algebra - Linear Algebra and Its Applications - David C. Lay
+- Number Theory/Combinatorics - AOPS and competition math
+- Data structures and algorithms - competitive programming
+- Statistics - AP Statistics
