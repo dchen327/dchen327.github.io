@@ -5,7 +5,7 @@ classes:
 
 title: David Chen
 
-excerpt: Artificial Intelligence Enthusiast, Self-Taught Programmer
+excerpt: Artificial Intelligence Enthusiast
 header:
   overlay_image: /assets/images/site-header2.jpg
   overlay_filter: 0.3
