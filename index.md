@@ -14,8 +14,6 @@ header:
     - label: "Resume"
       url: "/assets/resume.pdf"
 
-num_feature_rows: 6
-
 fr_ruzzle:
   - image_path: /assets/images/ruzzle-solver2.png
     title: "Ruzzle Solver"
