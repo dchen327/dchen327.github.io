@@ -41,7 +41,8 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 34. The World According to Physics - Jim Al-Khalili
 35. The Little Book That Still Beats the Market - Joel Greenblatt
 36. **Start With Why - Simon Sinek**
-37. *The Economics of Uncertainty - The Great Courses*
+37. The Economics of Uncertainty - The Great Courses
+38. *Find Your Why - Simon Sinek*
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Fiction</h1>
 1. **The Martian - Andy Weir**
 2. **Ready Player One - Ernest Cline**
