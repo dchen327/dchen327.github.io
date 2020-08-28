@@ -75,6 +75,14 @@ fr_codenames:
     url: https://github.com/dchen327/codenames
     btn_label: Source Code
     btn_class: "btn--large btn--success"
+
+fr_sunrise-alarm:
+  - image_path: /assets/images/sunrise-alarm.jpeg
+    title: "Sunrise Alarm"
+    excerpt: "We always feel more refreshed waking up to the sunrise on weekends without a blaring alarm clock. This Android tasker script uses an adjustable light to simulate the sunrise, as well as the sunset before sleep. REM sleep cycles are considered for alarm times."
+    url: https://taskernet.com/shares/?user=AS35m8nIi33jowYY%2F6X7N9Hf12XdqPGnFaDesuuxyUyrP8D8vG9h3CanL1otRjwH2n7Lxo1AmA%3D%3D&id=Profile%3AAlarm
+    btn_label: Source Code
+    btn_class: "btn--large btn--success"
 ---
 
 <h1 id="About" style="font-size: 3em; text-align: center">About Me</h1>
@@ -106,4 +114,5 @@ I'm currently a senior, studying at <i class="fas fa-university"></i> Princeton 
 {% include feature_row id="fr_cartpole" type="left" %}
 {% include feature_row id="fr_typeracer" type="right" %}
 {% include feature_row id="fr_ambient" type="left" %}
-{% include feature_row id="fr_arduino" type="right" %}
+{% include feature_row id="fr_sunrise-alarm" type="right" %}\
+{% include feature_row id="fr_arduino" type="left" %}
