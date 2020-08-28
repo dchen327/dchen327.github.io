@@ -67,6 +67,14 @@ fr_cartpole:
     url: https://github.com/dchen327/cartpole-rl
     btn_label: Source Code
     btn_class: "btn--large btn--success"
+
+fr_codenames:
+  - image_path: /assets/images/codenames.png
+    title: "Codenames"
+    excerpt: "A simple application of Stanford GloVe word vectors to the game codenames, where a spymaster attempts to give a clue to hint at certain words, while avoiding others."
+    url: https://github.com/dchen327/codenames
+    btn_label: Source Code
+    btn_class: "btn--large btn--success"
 ---
 
 <h1 id="About" style="font-size: 3em; text-align: center">About Me</h1>
@@ -93,8 +101,9 @@ I'm currently a senior, studying at <i class="fas fa-university"></i> Princeton 
 <h1 id="Projects" style="font-size: 3em; text-align: center">Projects</h1>
 {% include feature_row id="fr_ruzzle" type="left" %}
 {% include feature_row id="fr_isola" type="right" %}
+{% include feature_row id="fr_quizlet" type="left" %}
+{% include feature_row id="fr_codenames" type="right" %}
 {% include feature_row id="fr_cartpole" type="left" %}
-{% include feature_row id="fr_quizlet" type="right" %}
-{% include feature_row id="fr_typeracer" type="left" %}
-{% include feature_row id="fr_ambient" type="right" %}
-{% include feature_row id="fr_arduino" type="left" %}
+{% include feature_row id="fr_typeracer" type="right" %}
+{% include feature_row id="fr_ambient" type="left" %}
+{% include feature_row id="fr_arduino" type="right" %}
