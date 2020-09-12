@@ -114,5 +114,5 @@ I'm currently a senior, studying at <i class="fas fa-university"></i> Princeton 
 {% include feature_row id="fr_cartpole" type="left" %}
 {% include feature_row id="fr_typeracer" type="right" %}
 {% include feature_row id="fr_ambient" type="left" %}
-{% include feature_row id="fr_sunrise-alarm" type="right" %}\
+{% include feature_row id="fr_sunrise-alarm" type="right" %}
 {% include feature_row id="fr_arduino" type="left" %}
