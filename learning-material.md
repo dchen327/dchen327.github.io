@@ -30,4 +30,8 @@ layout: single
 - Data Structures and Algorithms - competitive programming
 - Statistics - AP Statistics
 
+<h1 style="font-size: 3em; text-align: center">Software & Tools</h1>
+- OS: dual-boot Pop! OS (based off Ubuntu) & Windows 10
+- Programming Langauges: Python, Java, C++, some HTML/CSS/JS, Latex
+- Code Editors: Sublime Text & VSCode, sometimes repl.it
 
