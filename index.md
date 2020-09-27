@@ -17,7 +17,7 @@ header:
 fr_ruzzle:
   - image_path: /assets/images/ruzzle-solver2.png
     title: "Ruzzle Solver"
-    excerpt: Designed a program to play Ruzzle, a mobile word finding game in a 4x4 grid. Utilized optical character recognition, custom trained models, graph theory, and Android automation.
+    excerpt: Designed a program to play Ruzzle, a mobile word finding game in a 4x4 grid. Utilized optical character recognition, custom trained models, graph theory, and Android automation. [writeup](ruzzle-solver)
     url: https://github.com/dchen327/ruzzle-solver
     btn_label: Source Code
     btn_class: "btn--large btn--success"

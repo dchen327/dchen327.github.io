@@ -1,0 +1,27 @@
+---
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+---
+I wrote a python script to automatically play Ruzzle, a word game where players find and swipe words on a 4x4 grid as fast as possible. The basic code is just a very basic DFS through word possibilities starting at each of the 16 letters; however, this approach requires a lot of manual work and is so slow that it can't even beat me just playing normally. 
+<br>
+<br>
+After searching around for the dictionary used by the game, I used a word list and generated prefix files to prune the DFS, resulting in significantly faster execution times. At this point, I'd start a game, input the 16 letters, and then go through the produced words by length. I later implemented the letter point system and multiplers (think Scrabble DL, TW, etc.) so that I could improve my score. 
+<br>
+<br>
+I quickly got annoyed at having to manually input the letters, so I spent a couple days trying to get optical character recognition to work. At first I considered training my own model with fast.ai, but I quickly realized that using google's tesseract would be far better. However, even after attempting hundreds of different cropping methods and image preprocessing methods, the default tesseract OCR would still misclassify certain letters. I eventually found a website that would allow me to train a tesseract model given a font, so after figuring out the font used to draw the letters I used the custom OCR which now had pretty much perfect accuracy. 
+<br>
+<br>
+I continued to speed up the word finding code as well by eliminating words that have never been seen in a repository of Ruzzle boards. At this point I'd reduced running time from around 30s/board to 5s/board, and some slight future image optimizations would reduce this down to around 3s/board. Again, my fingers were getting tired after all the swiping I had to do, so I decided my final idea would be to fully automate the game by automating gestures as well. 
+<br>
+<br>
+Even on a rooted Android I faced many challenges: how would I run the python script on my phone, how do I sync code on my laptop with my phone, how do I set up failsafes? After much testing, I decided to use git in Termux (linux emulator for Android) for code changes. I converted the words found by the DFS search to screen coordinates for gestures, and I was shocked to discover that the emulated swipes were incredibly inaccurate at high speeds: a movement upward and then diagonal would be combined into a curve, resulting in the swipe adding additional letters and me not getting any game points. Many fruitless forum posts and emails to developers only pointed to one answer: the accuracy was a hardware limitation, so the fix would be to just swipe slower. Well, I refused to settle with fewer words found in games, and I also didn't want anything less than 100% word accuracy. I continued browsing random posts from almost a decade ago, and finally concluded that there was indeed an alternate way to emulate gestures: write directly to the android screen touch /dev/input file that controls all screen function. 
+<br>
+<br>
+Unfortunately, android updates have increased security over the years, and I thought I was out of luck. Fortunately, sudo with root access really does give you access to everything: I overwrote some permissions, ran the script, copied the coordinates... and now my phone screen was unresponsive. I quickly gave up on that pursuit since I value a functional phone more than one single functional script, but luckily I found another post about using adb to send gestures. Usually adb requires the phone to be connected to the computer which sends commands, but using some more root things I was able to send my own device commands from itself. Finally, I added some gesture swipe optimizations (combine collinear swipes, etc.), and now I had a working script which could usually find all 250-300 words present in 4x4 Ruzzle grids. 
+<br>
+<br>
+Using the popular android automation app Tasker, I fully automated the rest of the game and script: launching the game, sending game requests, starting the game, taking a screenshot, running the python script, starting the gestures, and finishing games to begin new ones. I began browsing similar projects on Github, and while many projects were similar, I didn't see any other projects that had OCR, optimized DFS, and ultra fast gesture emulation, all running on just a phone.
