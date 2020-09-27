@@ -10,6 +10,7 @@ layout: single
 - CS231n: Convolutional Neural Networks for Visual Recognition
   - While focused mainly on CNNs for computer vision, CS231n provides all the tips and tricks needed for successful deep learning. Early assignments involve implementing many commonly used DL layers, while later assignments involve fun topics like RNNs and GANs. 
 - CS224n: Natural Language Processing with Deep Learning
+  - Covering both traditional NLP techniques and deep learning, CS224n provides a great introduction to natural language processing. I highly recommend taking CS231n first, since the programming assignments make a lot of the CS224n concepts easier to understand. Some of the homework assignments take a pretty long time to train (a couple hours), so it's a tiny bit annoying.
   - [My written and code solutions](https://github.com/dchen327/stanford-cs224n) 
   - [Visual BiDAF Explanation](https://towardsdatascience.com/the-definitive-guide-to-bi-directional-attention-flow-d0e96e9e666b)
 
