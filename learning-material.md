@@ -30,4 +30,4 @@ layout: single
 - Data Structures and Algorithms - competitive programming
 - Statistics - AP Statistics
 
-[test link]({% post_url 2020-02-07-ruzzle-solver %})
+
