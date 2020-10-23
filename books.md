@@ -42,7 +42,12 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 35. The Little Book That Still Beats the Market - Joel Greenblatt
 36. **Start With Why - Simon Sinek**
 37. The Economics of Uncertainty - The Great Courses
-38. *Find Your Why - Simon Sinek*
+38. Find Your Why - Simon Sinek
+39. The Infinite Game - Simon Sinek
+40. The Design of Everyday Things - Don Norman
+41. The Hidden Life of Trees - Peter Wohlleben
+42. Breath: The New Science of a Lost Art - James Nestor
+
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Fiction</h1>
 1. **The Martian - Andy Weir**
 2. **Ready Player One - Ernest Cline**
