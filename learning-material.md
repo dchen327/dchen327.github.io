@@ -9,10 +9,13 @@ layout: single
   - [My code solutions](https://github.com/dchen327/stanford-cs221-code)
 - CS231n: Convolutional Neural Networks for Visual Recognition
   - While focused mainly on CNNs for computer vision, CS231n provides all the tips and tricks needed for successful deep learning. Early assignments involve implementing many commonly used DL layers, while later assignments involve fun topics like RNNs and GANs. 
+  - I accidentally deleted my solutions, but there are plenty of others online!
 - CS224n: Natural Language Processing with Deep Learning
   - Covering both traditional NLP techniques and deep learning, CS224n provides a great introduction to natural language processing. I highly recommend taking CS231n first, since the programming assignments make a lot of the CS224n concepts easier to understand. Some of the homework assignments take a pretty long time to train (a couple hours), so it's a tiny bit annoying.
   - [My written and code solutions](https://github.com/dchen327/stanford-cs224n) 
   - [Visual BiDAF Explanation](https://towardsdatascience.com/the-definitive-guide-to-bi-directional-attention-flow-d0e96e9e666b)
+- CS230: Deep Learning
+  - This course follows a flipped classroom format, where the content is from Coursera's Deep Learning Specialization. Pretty much all of the content was covered in greater depth in the previous three Stanford classes and fast.ai's course, but it's still a good review of practical concepts without a lot of theory.
 
 <h1 style="font-size: 3em; text-align: center">Additional Math/AI/ML Courses</h1>
 - Intro to Machine Learning - Coursera (Andrew Ng)
