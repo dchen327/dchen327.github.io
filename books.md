@@ -47,12 +47,20 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 40. The Design of Everyday Things - Don Norman
 41. The Hidden Life of Trees - Peter Wohlleben
 42. Breath: The New Science of a Lost Art - James Nestor
+43. Spark: The Revolutionary New Science of Exercise and the Brain - John Ratey
+44. A Promised Land - Barack Obama
+45. Digital Minimalism: Choosing a Focused Life in a Noisy World - Cal Newport
+
 
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Fiction</h1>
-1. **The Martian - Andy Weir**
-2. **Ready Player One - Ernest Cline**
-3. A Wrinkle in Time - Madeleine L'Engle
-4. Neuromancer - William Gibson
-5. All the Light We Cannot See - Anthony Doerr
-6. **The Ballad of Songbirds and Snakes - Suzanne Collins**
-7. The Great Gatsby - F. Scott Fitzgerald
+
+1. 2001: A Space Odyssey - Arthur C. Clarke1. **The Martian - Andy Weir**
+2. Neuromancer - William Gibson
+3. The Hitchhiker's Guide to the Galaxy - Douglas Adams
+4. **Ready Player One - Ernest Cline**
+5. A Wrinkle in Time - Madeleine L'Engle
+6. Neuromancer - William Gibson
+7. All the Light We Cannot See - Anthony Doerr
+8. **The Ballad of Songbirds and Snakes - Suzanne Collins**
+   The Great Gatsby - F. Scott Fitzgerald
+10. *The Namesake - Jhumpa Lahiri*
