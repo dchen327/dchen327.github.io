@@ -83,6 +83,14 @@ fr_sunrise-alarm:
     url: https://taskernet.com/shares/?user=AS35m8nIi33jowYY%2F6X7N9Hf12XdqPGnFaDesuuxyUyrP8D8vG9h3CanL1otRjwH2n7Lxo1AmA%3D%3D&id=Profile%3AAlarm
     btn_label: Source Code
     btn_class: "btn--large btn--success"
+
+fr_sketchful:
+  - image_path: /assets/images/sketchful_demo.png
+    title: "Pictionary AutoDraw"
+    excerpt: "With image preprocessing, color matching, brush size optimization for resolution, and PyAutoGui, AutoDraw takes images and turns them into beautiful art on a canvas."
+    url: https://github.com/dchen327/skribblio
+    btn_label: Source Code
+    btn_class: "btn--large btn--success"
 ---
 
 <h1 id="About" style="font-size: 3em; text-align: center">About Me</h1>
@@ -109,10 +117,11 @@ I'm currently a senior, studying at <i class="fas fa-university"></i> Princeton 
 <h1 id="Projects" style="font-size: 3em; text-align: center">Projects</h1>
 {% include feature_row id="fr_ruzzle" type="left" %}
 {% include feature_row id="fr_isola" type="right" %}
+{% include feature_row id="fr_ambient" type="left" %}
+{% include feature_row id="fr_sketchful" type="right" %}
 {% include feature_row id="fr_quizlet" type="left" %}
 {% include feature_row id="fr_codenames" type="right" %}
+{% include feature_row id="fr_arduino" type="left" %}
+{% include feature_row id="fr_sunrise-alarm" type="right" %}
 {% include feature_row id="fr_cartpole" type="left" %}
 {% include feature_row id="fr_typeracer" type="right" %}
-{% include feature_row id="fr_ambient" type="left" %}
-{% include feature_row id="fr_sunrise-alarm" type="right" %}
-{% include feature_row id="fr_arduino" type="left" %}
