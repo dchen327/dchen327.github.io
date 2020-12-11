@@ -50,6 +50,7 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 43. Spark: The Revolutionary New Science of Exercise and the Brain - John Ratey
 44. A Promised Land - Barack Obama
 45. Digital Minimalism: Choosing a Focused Life in a Noisy World - Cal Newport
+46. Why Fish Don't Exist: A Story of Loss, Love, and the Hidden Order of Life - Lulu Miller
 
 
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Fiction</h1>
