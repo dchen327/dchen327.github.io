@@ -63,5 +63,6 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 6. Neuromancer - William Gibson
 7. All the Light We Cannot See - Anthony Doerr
 8. **The Ballad of Songbirds and Snakes - Suzanne Collins**
-   The Great Gatsby - F. Scott Fitzgerald
+9. The Great Gatsby - F. Scott Fitzgerald
 10. *The Namesake - Jhumpa Lahiri*
+11. *Ready Player Two - Ernest Cline*
