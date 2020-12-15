@@ -36,13 +36,14 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 29. Algorithms to Live By: The Computer Science of Human Decisions - Brian Christian and Tom Griffiths
 30. Behavioral Economics: When Psychology and Economics Collide - The Great Courses
 31. Freakonomics - Stephen J. Dubner and Steven Levitt
-32. Infinite Powers: How Calculus Reveals the Secrets of the Universe - Steven Strogatz
-33. The Decision: Overcoming Today's BS for Tomorrow's Success - Kevin Hart
-34. The World According to Physics - Jim Al-Khalili
-35. The Little Book That Still Beats the Market - Joel Greenblatt
-36. **Start With Why - Simon Sinek**
-37. The Economics of Uncertainty - The Great Courses
-38. Find Your Why - Simon Sinek
+32. SuperFreakonomics - Stephen J. Dubner and Steven Levitt
+33. Infinite Powers: How Calculus Reveals the Secrets of the Universe - Steven Strogatz
+34. The Decision: Overcoming Today's BS for Tomorrow's Success - Kevin Hart
+35. The World According to Physics - Jim Al-Khalili
+36. The Little Book That Still Beats the Market - Joel Greenblatt
+37. **Start With Why - Simon Sinek**
+38. The Economics of Uncertainty - The Great Courses
+39. Find Your Why - Simon Sinek
 39. The Infinite Game - Simon Sinek
 40. The Design of Everyday Things - Don Norman
 41. The Hidden Life of Trees - Peter Wohlleben
