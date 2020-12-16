@@ -56,14 +56,21 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Fiction</h1>
 
-1. 2001: A Space Odyssey - Arthur C. Clarke1. **The Martian - Andy Weir**
-2. Neuromancer - William Gibson
-3. The Hitchhiker's Guide to the Galaxy - Douglas Adams
-4. **Ready Player One - Ernest Cline**
-5. A Wrinkle in Time - Madeleine L'Engle
-6. Neuromancer - William Gibson
-7. All the Light We Cannot See - Anthony Doerr
-8. **The Ballad of Songbirds and Snakes - Suzanne Collins**
-9. The Great Gatsby - F. Scott Fitzgerald
-10. *The Namesake - Jhumpa Lahiri*
-11. *Ready Player Two - Ernest Cline*
+1. Fahrenheit 451 - Ray Bradbury
+2. 2001: A Space Odyssey - Arthur C. Clarke 
+3. The Martian - Andy Weir
+4. Neuromancer - William Gibson 
+5. Lord of the Flies - William Golding
+6. The War of the Worlds - H.G. Wells
+7. The Time Machine - H.G. Wells
+8. The Alchemist - Paulo Coelho
+9. The Hitchhiker's Guide to the Galaxy - Douglas Adams
+10. The Martian Chronicles -  Ray Bradbury
+11. **Ready Player One - Ernest Cline**
+12. A Wrinkle in Time - Madeleine L'Engle
+13. All the Light We Cannot See - Anthony Doerr
+14. **The Ballad of Songbirds and Snakes - Suzanne Collins**
+15. The Great Gatsby - F. Scott Fitzgerald
+16. *The Namesake - Jhumpa Lahiri*
+17. *Ready Player Two - Ernest Cline*
+18. *Station Eleven - Emily St. John Mandel*
