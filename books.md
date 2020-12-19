@@ -5,6 +5,7 @@ layout: single
 Here are some of the books I've read (or listened to), mostly throughout high school. I've **bolded** my favorites, and anything I'm currently reading is _italicized_.
 
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Non-Fiction</h1>
+
 1. **How to Win Friends and Influence People - Dale Carnegie**
 2. 12 Rules for Life - Jordan Peterson
 3. **A Mind For Numbers: How to Excel at Math and Science (Even If You Flunked Algebra) - Barbara Oakley**
@@ -52,7 +53,7 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 44. A Promised Land - Barack Obama
 45. Digital Minimalism: Choosing a Focused Life in a Noisy World - Cal Newport
 46. Why Fish Don't Exist: A Story of Loss, Love, and the Hidden Order of Life - Lulu Miller
-47. Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets - Nassim Nicholas Taleb
+47. *Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets - Nassim Nicholas Taleb*
 
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Fiction</h1>
 
@@ -71,6 +72,6 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 13. All the Light We Cannot See - Anthony Doerr
 14. **The Ballad of Songbirds and Snakes - Suzanne Collins**
 15. The Great Gatsby - F. Scott Fitzgerald
-16. _The Namesake - Jhumpa Lahiri_
-17. _Ready Player Two - Ernest Cline_
-18. _Station Eleven - Emily St. John Mandel_
+16. *The Namesake - Jhumpa Lahiri*
+17. *Ready Player Two - Ernest Cline*
+18. *Station Eleven - Emily St. John Mandel*
