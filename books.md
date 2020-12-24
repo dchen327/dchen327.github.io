@@ -72,6 +72,6 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 13. All the Light We Cannot See - Anthony Doerr
 14. **The Ballad of Songbirds and Snakes - Suzanne Collins**
 15. The Great Gatsby - F. Scott Fitzgerald
-16. *The Namesake - Jhumpa Lahiri*
-17. *Ready Player Two - Ernest Cline*
+16. Ready Player Two - Ernest Cline
+17. *The Namesake - Jhumpa Lahiri*
 18. *Station Eleven - Emily St. John Mandel*
