@@ -45,15 +45,17 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 37. **Start With Why - Simon Sinek**
 38. The Economics of Uncertainty - The Great Courses
 39. Find Your Why - Simon Sinek
-39. The Infinite Game - Simon Sinek
-40. The Design of Everyday Things - Don Norman
-41. The Hidden Life of Trees - Peter Wohlleben
-42. Breath: The New Science of a Lost Art - James Nestor
-43. Spark: The Revolutionary New Science of Exercise and the Brain - John Ratey
-44. A Promised Land - Barack Obama
-45. Digital Minimalism: Choosing a Focused Life in a Noisy World - Cal Newport
-46. Why Fish Don't Exist: A Story of Loss, Love, and the Hidden Order of Life - Lulu Miller
-47. *Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets - Nassim Nicholas Taleb*
+40. The Infinite Game - Simon Sinek
+41. The Design of Everyday Things - Don Norman
+42. The Hidden Life of Trees - Peter Wohlleben
+43. Breath: The New Science of a Lost Art - James Nestor
+44. Spark: The Revolutionary New Science of Exercise and the Brain - John Ratey
+45. A Promised Land - Barack Obama
+46. Digital Minimalism: Choosing a Focused Life in a Noisy World - Cal Newport
+47. Why Fish Don't Exist: A Story of Loss, Love, and the Hidden Order of Life - Lulu Miller
+48. Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets - Nassim Nicholas Taleb
+49. **Range: Why Generalists Triumph in a Specialized World - David Epstein**
+50. *Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones - James Clear*
 
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Fiction</h1>
 
