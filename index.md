@@ -91,6 +91,14 @@ fr_sketchful:
     url: https://github.com/dchen327/skribblio
     btn_label: Source Code
     btn_class: "btn--large btn--success"
+
+fr_nonogram:
+  - image_path: /assets/images/nonogram-solver.png
+    title: "Nonogram Solver"
+    excerpt: "With Selenium and bit operations, this fully solves nonogram visual logic puzzles."
+    url: https://github.com/dchen327/nonogram-solver
+    btn_label: Source Code
+    btn_class: "btn--large btn--success"
 ---
 
 <h1 id="About" style="font-size: 3em; text-align: center">About Me</h1>
@@ -119,9 +127,10 @@ I'm currently a senior, studying at <i class="fas fa-university"></i> Princeton 
 {% include feature_row id="fr_isola" type="right" %}
 {% include feature_row id="fr_ambient" type="left" %}
 {% include feature_row id="fr_sketchful" type="right" %}
-{% include feature_row id="fr_quizlet" type="left" %}
+{% include feature_row id="fr_nonogram" type="left" %}
 {% include feature_row id="fr_codenames" type="right" %}
 {% include feature_row id="fr_arduino" type="left" %}
 {% include feature_row id="fr_sunrise-alarm" type="right" %}
-{% include feature_row id="fr_cartpole" type="left" %}
-{% include feature_row id="fr_typeracer" type="right" %}
+{% include feature_row id="fr_quizlet" type="left" %}
+{% include feature_row id="fr_cartpole" type="right" %}
+{% include feature_row id="fr_typeracer" type="left" %}
