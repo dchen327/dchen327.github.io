@@ -39,23 +39,25 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 31. Freakonomics - Stephen J. Dubner and Steven Levitt
 32. SuperFreakonomics - Stephen J. Dubner and Steven Levitt
 33. Infinite Powers: How Calculus Reveals the Secrets of the Universe - Steven Strogatz
-34. The Decision: Overcoming Today's BS for Tomorrow's Success - Kevin Hart
-35. The World According to Physics - Jim Al-Khalili
-36. The Little Book That Still Beats the Market - Joel Greenblatt
-37. **Start With Why - Simon Sinek**
-38. The Economics of Uncertainty - The Great Courses
-39. Find Your Why - Simon Sinek
-40. The Infinite Game - Simon Sinek
-41. The Design of Everyday Things - Don Norman
-42. The Hidden Life of Trees - Peter Wohlleben
-43. Breath: The New Science of a Lost Art - James Nestor
-44. Spark: The Revolutionary New Science of Exercise and the Brain - John Ratey
-45. A Promised Land - Barack Obama
-46. Digital Minimalism: Choosing a Focused Life in a Noisy World - Cal Newport
-47. Why Fish Don't Exist: A Story of Loss, Love, and the Hidden Order of Life - Lulu Miller
-48. Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets - Nassim Nicholas Taleb
-49. **Range: Why Generalists Triumph in a Specialized World - David Epstein**
-50. *Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones - James Clear*
+34. Moonwalking with Einstein - Joshua Foer
+35. The Decision: Overcoming Today's BS for Tomorrow's Success - Kevin Hart
+36. The World According to Physics - Jim Al-Khalili
+37. The Little Book That Still Beats the Market - Joel Greenblatt
+38. **Start With Why - Simon Sinek**
+39. The Economics of Uncertainty - The Great Courses
+40. Find Your Why - Simon Sinek
+41. The Infinite Game - Simon Sinek
+42. The Design of Everyday Things - Don Norman
+43. The Hidden Life of Trees - Peter Wohlleben
+44. Breath: The New Science of a Lost Art - James Nestor
+45. Spark: The Revolutionary New Science of Exercise and the Brain - John Ratey
+46. A Promised Land - Barack Obama
+47. Digital Minimalism: Choosing a Focused Life in a Noisy World - Cal Newport
+48. Why Fish Don't Exist: A Story of Loss, Love, and the Hidden Order of Life - Lulu Miller
+49. Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets - Nassim Nicholas Taleb
+50. **Range: Why Generalists Triumph in a Specialized World - David Epstein**
+51. Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones - James Clear
+52. Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration - Amy Wallace and Edwin Catmull
 
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Fiction</h1>
 
