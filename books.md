@@ -58,6 +58,7 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 50. **Range: Why Generalists Triumph in a Specialized World - David Epstein**
 51. Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones - James Clear
 52. Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration - Amy Wallace and Edwin Catmull
+53. The 5 Second Rule - Mel Robbins
 
 <h1 id="Stanford-AI" style="font-size: 3em; text-align: center">Fiction</h1>
 
@@ -77,5 +78,7 @@ Here are some of the books I've read (or listened to), mostly throughout high sc
 14. **The Ballad of Songbirds and Snakes - Suzanne Collins**
 15. The Great Gatsby - F. Scott Fitzgerald
 16. Ready Player Two - Ernest Cline
-17. *The Namesake - Jhumpa Lahiri*
-18. *Station Eleven - Emily St. John Mandel*
+17. Frankly in Love - David Yoon
+18. **The Midnight Library - Matt Haig**
+19. *The Namesake - Jhumpa Lahiri*
+20. *Station Eleven - Emily St. John Mandel*
