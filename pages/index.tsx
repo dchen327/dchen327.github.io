@@ -1,14 +1,13 @@
 import Head from "next/head";
-import { Button, Container } from "semantic-ui-react";
+import { Button, Container, Menu } from "semantic-ui-react";
 
 export default function Home() {
   return (
-    <Container>
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>David Chen</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Button>Hi</Button>
-    </Container>
+    </div>
   );
 }
