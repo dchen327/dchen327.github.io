@@ -35,6 +35,11 @@ export default function Footer() {
           </Button>
         </Grid.Column>
       </Grid.Row>
+      <Grid.Row>
+        <p style={{ marginTop: "-15px", color: "#ffffff" }}>
+          © 2021 David Chen. Built with Next.JS and Semantic UI React
+        </p>
+      </Grid.Row>
     </Grid>
   );
 }
