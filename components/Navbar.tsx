@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "semantic-ui-react";
 
@@ -11,8 +12,6 @@ export default function Navbar() {
         background: "#2C2F33",
       }}
     >
-      {" "}
-      <Menu.Item>David Chen</Menu.Item>
       <Link href="/" passHref>
         <Menu.Item name="Home" position="right" />
       </Link>

@@ -1,13 +1,24 @@
-import Image from "next/image";
-import { bgWrap, bgText } from "../styles/Home.module.css";
+import { Header } from "semantic-ui-react";
 
 export default function SplashScreen() {
   return (
-    <>
-      <div className={bgWrap}>
-        <Image src="/images/background.jpg" layout="fill" />
-      </div>
-      <p className={bgText}>Text overlay?</p>
-    </>
+    <div
+      style={{
+        backgroundImage: `url(/images/background.jpg)`,
+        height: "100vh",
+        backgroundSize: "cover",
+      }}
+    >
+      <Header
+        size="large"
+        inverted
+        style={{ fontSize: "65px", paddingTop: "10vh", paddingLeft: "3vw" }}
+      >
+        David Chen
+        <Header.Subheader style={{ fontSize: "30px", paddingLeft: "5px" }}>
+          Software Engineer
+        </Header.Subheader>
+      </Header>
+    </div>
   );
 }

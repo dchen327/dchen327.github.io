@@ -1,5 +1,6 @@
 import "semantic-ui-css/semantic.min.css";
 import Navbar from "../components/Navbar";
+import About from "./About";
 import SplashScreen from "./SplashScreen";
 
 function MyApp() {
@@ -7,6 +8,7 @@ function MyApp() {
     <div>
       <Navbar />
       <SplashScreen />
+      <About />
     </div>
   );
 }
