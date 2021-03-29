@@ -3,7 +3,7 @@ import { Container, Divider, Grid, Header, Image } from "semantic-ui-react";
 
 export default function About() {
   return (
-    <div style={{ padding: "2%", background: "#f8fcfd" }}>
+    <div style={{ padding: "2%", background: "#DCDCDC" }}>
       <Header size="large" style={{ textAlign: "center" }}>
         About Me
       </Header>
