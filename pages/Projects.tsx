@@ -9,7 +9,17 @@ export default function Projects() {
       </Header>
       <Divider />
       <Grid centered verticalAlign="middle" columns={2}>
-        <Project />
+        <Project
+          title="Ruzzle Solver"
+          image="ruzzle-solver.png"
+          excerpt={
+            <>
+              Designed a program to play Ruzzle, a mobile word finding game in a
+              4x4 grid. Utilized optical character recognition, custom trained
+              models, graph theory, and Android automation.
+            </>
+          }
+        />
       </Grid>
     </div>
   );
