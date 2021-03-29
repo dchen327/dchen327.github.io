@@ -1,11 +1,12 @@
 import "semantic-ui-css/semantic.min.css";
 import Navbar from "../components/Navbar";
+import SplashScreen from "./SplashScreen";
 
-function MyApp({ Component, pageProps }) {
+function MyApp() {
   return (
     <div>
       <Navbar />
-      <Component {...pageProps} />
+      <SplashScreen />
     </div>
   );
 }

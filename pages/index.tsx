@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { Button, Container, Menu } from "semantic-ui-react";
 
 export default function Home() {
   return (
