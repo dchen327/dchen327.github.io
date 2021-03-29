@@ -7,6 +7,7 @@ export default function SplashScreen() {
         backgroundImage: `url(/images/background.jpg)`,
         height: "100vh",
         backgroundSize: "cover",
+        margin: "0px",
       }}
     >
       <Header

@@ -5,11 +5,11 @@ import SplashScreen from "./SplashScreen";
 
 function MyApp() {
   return (
-    <div>
+    <>
       <Navbar />
       <SplashScreen />
       <About />
-    </div>
+    </>
   );
 }
 
