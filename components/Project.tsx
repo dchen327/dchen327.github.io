@@ -4,8 +4,8 @@ export default function Project(props) {
   return (
     <>
       <Grid.Row>
-        <Grid.Column></Grid.Column>
-        <Grid.Column>right side</Grid.Column>
+        <Grid.Column>{props.image}</Grid.Column>
+        <Grid.Column>{props.title}</Grid.Column>
       </Grid.Row>
     </>
   );
