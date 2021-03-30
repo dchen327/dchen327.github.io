@@ -32,7 +32,7 @@ function ProjectDesc(props) {
           positive
           style={{ marginTop: "15px" }}
           as="a"
-          href={props.sourceURL}
+          href={props.url}
           target="_blank"
         >
           Source Code
