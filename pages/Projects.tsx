@@ -7,6 +7,7 @@ const projects = [
     image: "ruzzle-solver.png",
     excerpt:
       "Designed a program to play Ruzzle, a mobile word finding game in a 4x4 grid. Utilized optical character recognition, custom trained models, graph theory, and Android automation.",
+    sourceURL: "https://github.com/dchen327/ruzzle-solver",
   },
 ];
 
@@ -18,12 +19,7 @@ export default function Projects() {
       </Header>
       <Divider />
       {projects.map((project, index) => (
-        <Project
-          title={project.title}
-          image={project.image}
-          excerpt={project.excerpt}
-          imgSide={index % 2}
-        />
+        <Project {...project} imgSide={index % 2} />
       ))}
     </div>
   );

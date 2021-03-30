@@ -1,16 +1,16 @@
-import { Grid, Header, Image } from "semantic-ui-react";
+import { Button, Grid, Header, Image, Segment } from "semantic-ui-react";
 
 export default function Project(props) {
+  console.log(props);
   // alternating card projects view
-  const [left, right] =
-    props.imgSide === 0
-      ? [<ProjectImage {...props} />, <ProjectDesc {...props} />]
-      : [<ProjectDesc {...props} />, <ProjectImage {...props} />];
+  const [left, right] = props.imgSide
+    ? [<ProjectDesc {...props} />, <ProjectImage {...props} />]
+    : [<ProjectImage {...props} />, <ProjectDesc {...props} />];
   return (
-    <Grid centered verticalAlign="middle" columns="equal">
+    <Grid centered verticalAlign="middle">
       <Grid.Row>
-        <Grid.Column>{left}</Grid.Column>
-        <Grid.Column>{right}</Grid.Column>
+        <Grid.Column width={props.imgSide ? 10 : 5}>{left}</Grid.Column>
+        <Grid.Column width={props.imgSide ? 5 : 10}>{right}</Grid.Column>
       </Grid.Row>
     </Grid>
   );
@@ -22,11 +22,22 @@ function ProjectImage(props) {
 
 function ProjectDesc(props) {
   return (
-    <>
+    <Segment centered>
       <Header size="huge">
         {props.title}
-        <Header.Subheader>{props.excerpt}</Header.Subheader>
+        <Header.Subheader style={{ paddingTop: "10px", fontSize: "18px" }}>
+          {props.excerpt}
+        </Header.Subheader>
+        <Button
+          positive
+          style={{ marginTop: "15px" }}
+          as="a"
+          href={props.sourceURL}
+          target="_blank"
+        >
+          Source Code
+        </Button>
       </Header>
-    </>
+    </Segment>
   );
 }
