@@ -83,7 +83,7 @@ const projectOrder = [
 export default function Projects() {
   return (
     <div style={{ padding: "2%" }}>
-      <Header size="large" style={{ textAlign: "center" }}>
+      <Header id="Projects" size="large" style={{ textAlign: "center" }}>
         Projects
       </Header>
       <Divider />

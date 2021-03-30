@@ -12,7 +12,7 @@ import {
 export default function About() {
   return (
     <div style={{ padding: "2%", background: "#DCDCDC" }}>
-      <Header size="large" style={{ textAlign: "center" }}>
+      <Header id="About" size="large" style={{ textAlign: "center" }}>
         About Me
       </Header>
       <Divider />

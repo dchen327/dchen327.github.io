@@ -1,7 +1,6 @@
 import { Button, Grid, Header, Image, Segment } from "semantic-ui-react";
 
 export default function Project(props) {
-  console.log(props);
   // alternating card projects view
   const [left, right] = props.imgSide
     ? [<ProjectDesc {...props} />, <ProjectImage {...props} />]

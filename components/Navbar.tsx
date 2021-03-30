@@ -5,6 +5,7 @@ import { Menu } from "semantic-ui-react";
 export default function Navbar() {
   return (
     <Menu
+      borderless
       inverted
       fixed="top"
       size="massive"
@@ -15,6 +16,15 @@ export default function Navbar() {
       <Link href="/" passHref>
         <Menu.Item name="Home" position="right" />
       </Link>
+
+      <Link href="/#About" passHref>
+        <Menu.Item name="About" />
+      </Link>
+
+      <Link href="/#Projects" passHref>
+        <Menu.Item name="Projects" />
+      </Link>
+
       <Menu.Item
         name="Books"
         href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"
