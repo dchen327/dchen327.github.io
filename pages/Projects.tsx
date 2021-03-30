@@ -17,18 +17,14 @@ export default function Projects() {
         Projects
       </Header>
       <Divider />
-      <Grid centered verticalAlign="middle" columns={2}>
-        {projects.map((project, index) => (
-          <p>
-            <Project
-              title={project.title}
-              image={project.image}
-              excerpt={project.excerpt}
-              imgSide={index % 2}
-            />
-          </p>
-        ))}
-      </Grid>
+      {projects.map((project, index) => (
+        <Project
+          title={project.title}
+          image={project.image}
+          excerpt={project.excerpt}
+          imgSide={index % 2}
+        />
+      ))}
     </div>
   );
 }
