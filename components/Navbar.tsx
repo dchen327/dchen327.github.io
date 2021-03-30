@@ -15,12 +15,11 @@ export default function Navbar() {
       <Link href="/" passHref>
         <Menu.Item name="Home" position="right" />
       </Link>
-      <Link
+      <Menu.Item
+        name="Books"
         href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"
-        passHref
-      >
-        <Menu.Item name="Books" />
-      </Link>
+        target="_blank"
+      />
       <Link href="/resources" passHref>
         <Menu.Item name="Resources" />
       </Link>
