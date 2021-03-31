@@ -13,33 +13,38 @@ export default function Navbar() {
         background: "#2C2F33",
       }}
     >
-      <Link href="/" passHref>
+      {/* <Link to="/" smooth={true} offset={-70} duration={500}>
         <Menu.Item name="Home" position="right" />
-      </Link>
+      </Link> */}
 
-      <Link href="/#About" passHref>
-        <Menu.Item name="About" />
-      </Link>
+      <Menu.Item as={Link} name="Home" position="right">
+        <Link to="/" smooth={true} offset={-70} duration={500}>
+          Home
+        </Link>
+      </Menu.Item>
 
-      <Link to="About" smooth={true} offset={-70} duration={500}>
-        <Menu.Item name="About" />
-      </Link>
+      <Menu.Item as={Link} name="About">
+        <Link to="About" smooth={true} offset={-70} duration={500}>
+          About
+        </Link>
+      </Menu.Item>
 
-      <Link href="/#Projects" passHref>
-        <Menu.Item name="Projects" />
-      </Link>
+      <Menu.Item as={Link} name="Projects">
+        <Link to="Projects" smooth={true} offset={-70} duration={500}>
+          Projects
+        </Link>
+      </Menu.Item>
 
       <Menu.Item
         name="Books"
         href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"
         target="_blank"
       />
-      <Link href="/resources" passHref>
-        <Menu.Item name="Resources" />
-      </Link>
-      <Link href="/resume.pdf" passHref>
+
+      {/* <Link href="/resume.pdf" passHref>
         <Menu.Item name="Resume" />
-      </Link>
+      </Link> */}
+      <Menu.Item name="Resume" href="/resume.pdf" target="_blank" />
     </Menu>
   );
 }
