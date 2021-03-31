@@ -13,9 +13,6 @@ export default function Navbar() {
         background: "#2C2F33",
       }}
     >
-      {/* <Link to="/" smooth={true} offset={-70} duration={500}>
-        <Menu.Item name="Home" position="right" />
-      </Link> */}
       <Menu.Item
         onClick={() => animateScroll.scrollToTop({ duration: 500 })}
         name="Home"
@@ -40,9 +37,6 @@ export default function Navbar() {
         target="_blank"
       />
 
-      {/* <Link href="/resume.pdf" passHref>
-        <Menu.Item name="Resume" />
-      </Link> */}
       <Menu.Item name="Resume" href="/resume.pdf" target="_blank" />
     </Menu>
   );

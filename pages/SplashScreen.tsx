@@ -5,9 +5,8 @@ export default function SplashScreen() {
     <div
       style={{
         backgroundImage: `url(/images/background.jpg)`,
-        height: "100vh",
+        height: "105vh",
         backgroundSize: "cover",
-        margin: "0px",
       }}
     >
       <Header

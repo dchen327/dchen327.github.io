@@ -49,7 +49,7 @@ export default function About() {
               I'm currently a senior, studying at Princeton High School in New
               Jersey.
             </p>
-            <Grid centered>
+            <Grid>
               <Grid.Row>
                 <Grid.Column verticalAlign="middle">
                   <Button
