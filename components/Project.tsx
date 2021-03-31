@@ -21,7 +21,7 @@ function ProjectImage(props) {
 
 function ProjectDesc(props) {
   return (
-    <Segment centered>
+    <Segment>
       <Header size="huge">
         {props.title}
         <Header.Subheader style={{ paddingTop: "10px", fontSize: "18px" }}>

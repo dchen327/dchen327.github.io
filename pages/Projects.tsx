@@ -88,7 +88,7 @@ export default function Projects() {
       </Header>
       <Divider />
       {projectOrder.map((projectName, index) => (
-        <Project {...projects[projectName]} imgSide={index % 2} />
+        <Project {...projects[projectName]} imgSide={index % 2} key={index} />
       ))}
     </div>
   );

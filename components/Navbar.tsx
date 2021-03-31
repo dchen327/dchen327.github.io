@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import { Menu } from "semantic-ui-react";
 
 export default function Navbar() {
@@ -18,6 +18,10 @@ export default function Navbar() {
       </Link>
 
       <Link href="/#About" passHref>
+        <Menu.Item name="About" />
+      </Link>
+
+      <Link to="About" smooth={true} offset={-70} duration={500}>
         <Menu.Item name="About" />
       </Link>
 
