@@ -31,6 +31,12 @@ export default function Navbar() {
         </Link>
       </Menu.Item>
 
+      <Menu.Item as={Link} name="Resources">
+        <Link to="Resources" smooth={true} offset={-70} duration={500}>
+          Skills
+        </Link>
+      </Menu.Item>
+
       <Menu.Item
         name="Books"
         href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"

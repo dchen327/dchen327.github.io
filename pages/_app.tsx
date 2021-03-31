@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import About from "./About";
 import Projects from "./Projects";
+import Resources from "./Resources";
 import SplashScreen from "./SplashScreen";
 
 function MyApp() {
@@ -12,6 +13,7 @@ function MyApp() {
       <SplashScreen />
       <About />
       <Projects />
+      <Resources />
       <Footer />
     </>
   );
