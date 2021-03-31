@@ -66,9 +66,17 @@ const projects = {
       "With image preprocessing, color matching, brush size optimization for resolution, and PyAutoGui, AutoDraw takes images and turns them into beautiful art on a canvas.",
     url: "https://github.com/dchen327/pictionary-autodraw",
   },
+  pingmote: {
+    image: "pingmote.png",
+    title: "pingmote (Poor Man's Discord Nitro)",
+    excerpt:
+      "Developed hotkey triggered cross-platform global emote picker to create and quickly insert custom images and gifs.",
+    url: "https://github.com/dchen327/pingmote",
+  },
 };
 
 const projectOrder = [
+  "pingmote",
   "Ruzzle",
   "Isola",
   "Arduino",
