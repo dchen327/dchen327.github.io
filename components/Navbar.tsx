@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Link, animateScroll } from "react-scroll";
 import { Menu } from "semantic-ui-react";
 
@@ -19,19 +18,19 @@ export default function Navbar() {
         position="right"
       />
 
-      <Menu.Item as={Link} name="About">
+      <Menu.Item link name="About">
         <Link to="About" smooth={true} offset={-70} duration={500}>
           About
         </Link>
       </Menu.Item>
 
-      <Menu.Item as={Link} name="Projects">
+      <Menu.Item link name="Projects">
         <Link to="Projects" smooth={true} offset={-70} duration={500}>
           Projects
         </Link>
       </Menu.Item>
 
-      <Menu.Item as={Link} name="Resources">
+      <Menu.Item link name="Resources">
         <Link to="Resources" smooth={true} offset={-70} duration={500}>
           Skills
         </Link>
@@ -39,6 +38,7 @@ export default function Navbar() {
 
       <Menu.Item
         name="Books"
+        // as="a"
         href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"
         target="_blank"
       />
