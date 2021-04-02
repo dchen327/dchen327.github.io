@@ -7,7 +7,7 @@ export default function Resources() {
         Skills and Technologies
       </Header>
       <Divider />
-      <Grid centered style={{ textAlign: "left", padding: "2%" }}>
+      <Grid centered style={{ textAlign: "left", padding: "2% 0% 5% 0%" }}>
         <List size="huge" bulleted>
           <List.Item>OS: Windows 10 + WSL2, Pop! OS</List.Item>
           <List.Item>
