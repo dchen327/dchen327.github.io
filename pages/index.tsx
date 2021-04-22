@@ -9,7 +9,7 @@ import "semantic-ui-css/semantic.min.css";
 
 function Home() {
   return (
-    <>
+    <main>
       <Head>
         <title>David Chen</title>
         <link rel="icon" href="/favicon.ico" />
@@ -28,7 +28,7 @@ function Home() {
       <Projects />
       <Resources />
       <Footer />
-    </>
+    </main>
   );
 }
 
