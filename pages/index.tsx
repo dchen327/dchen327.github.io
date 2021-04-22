@@ -13,6 +13,14 @@ function Home() {
       <Head>
         <title>David Chen</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="David Chen" />
+        <meta property="og:url" content="https://davidxchen.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Personal Portfolio Website" />
+        <meta
+          property="og:image"
+          content="https://raw.githubusercontent.com/dchen327/dchen327.github.io/master/public/images/background.jpg"
+        />
       </Head>
       <Navbar />
       <SplashScreen />
