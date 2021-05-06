@@ -73,11 +73,19 @@ const projects = {
       "Developed hotkey triggered cross-platform global emote picker to create and quickly insert custom images and gifs.",
     url: "https://github.com/dchen327/pingmote",
   },
+  RedditUsernameGenerator: {
+    image: "slashgen.png",
+    title: "Reddit Username Generator",
+    excerpt:
+      "Trained LSTMs and GRUs on 400,000 Reddit usernames for text generation, then integrated into React through TensorFlow.js and Flask and deployed on Heroku.",
+    url: "https://github.com/dchen327/reddit-username-generator",
+  },
 };
 
 const projectOrder = [
   "pingmote",
   "Ruzzle",
+  "RedditUsernameGenerator",
   "Isola",
   "Arduino",
   "CartPole",
