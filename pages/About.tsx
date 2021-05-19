@@ -46,8 +46,8 @@ export default function About() {
               I've read beginning in high school.
             </p>
             <p>
-              I'm currently a senior, studying at Princeton High School in New
-              Jersey.
+              I'm currently a rising freshman at Harvey Mudd College in
+              Claremont, CA.
             </p>
             <Grid>
               <Grid.Row>
