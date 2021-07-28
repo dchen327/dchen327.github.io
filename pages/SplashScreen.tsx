@@ -4,7 +4,8 @@ export default function SplashScreen() {
   return (
     <div
       style={{
-        backgroundImage: `url(/images/background.jpg)`,
+        // backgroundImage: `url(/images/background.jpg)`,
+        backgroundImage: `url(/images/Tropical-sunset.png)`,
         height: "105vh",
         backgroundSize: "cover",
       }}
