@@ -19,7 +19,7 @@ function Home() {
         <meta property="og:description" content="Personal Portfolio Website" />
         <meta
           property="og:image"
-          content="https://github.com/dchen327/dchen327.github.io/blob/master/public/images/background.jpg"
+          content="https://github.com/dchen327/dchen327.github.io/blob/master/public/images/Tropical-sunset.png"
         />
       </Head>
       <Navbar />
