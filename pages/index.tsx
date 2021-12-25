@@ -18,7 +18,7 @@ function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Personal Portfolio Website" />
         <meta
-          property="og:image:og:secure_url"
+          property="og:image"
           content="https://raw.githubusercontent.com/dchen327/dchen327.github.io/master/public/images/Tropical-sunset.png"
         />
       </Head>
