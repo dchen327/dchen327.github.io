@@ -16,6 +16,43 @@ const AppMedia = createMedia({
 const mediaStyles = AppMedia.createMediaStyle();
 const { Media, MediaContextProvider } = AppMedia;
 
+const menuItems = [
+  <Menu.Item
+    onClick={() => animateScroll.scrollToTop({ duration: 500 })}
+    name="Home"
+    position="right"
+    key="Home"
+  />,
+
+  <Menu.Item link name="About" key="About">
+    <Link to="About" smooth={true} offset={-70} duration={500}>
+      About
+    </Link>
+  </Menu.Item>,
+
+  <Menu.Item link name="Projects" key="Projects">
+    <Link to="Projects" smooth={true} offset={-70} duration={500}>
+      Projects
+    </Link>
+  </Menu.Item>,
+
+  <Menu.Item link name="Resources" key="Resources">
+    <Link to="Resources" smooth={true} offset={-70} duration={500}>
+      Skills
+    </Link>
+  </Menu.Item>,
+
+  <Menu.Item
+    name="Books"
+    key="Books"
+    // as="a"
+    href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"
+    target="_blank"
+  />,
+
+  <Menu.Item name="Resume" key="Resume" href="/resume.pdf" target="_blank" />,
+];
+
 function NavbarMobile(props) {
   const { menuItems, onPusherClick, onToggle, visible } = props;
 
@@ -39,11 +76,7 @@ function NavbarMobile(props) {
           <Menu.Item onClick={onToggle}>
             <Icon name="sidebar" />
           </Menu.Item>
-          <Menu.Menu position="right">
-            {menuItems.map((item) => (
-              <Menu.Item {...item} />
-            ))}
-          </Menu.Menu>
+          {/* <Menu.Menu position="right">{menuItems}</Menu.Menu> */}
         </Menu>
       </Sidebar.Pusher>
     </Sidebar.Pushable>
@@ -113,8 +146,8 @@ export default function Navbar(props) {
       <Media at="mobile">
         <NavbarMobile
           menuItems={menuItems}
-          onPusherClick={this.handlePusher}
-          onToggle={this.handleToggle}
+          onPusherClick={handlePusher}
+          onToggle={handleToggle}
           visible={visible}
         />
       </Media>
