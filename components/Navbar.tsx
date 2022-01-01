@@ -1,7 +1,14 @@
 import { createMedia } from "@artsy/fresnel";
 import { useState } from "react";
 import { Link, animateScroll } from "react-scroll";
-import { Icon, Menu, Sidebar } from "semantic-ui-react";
+import {
+  Button,
+  Container,
+  Header,
+  Icon,
+  Menu,
+  Sidebar,
+} from "semantic-ui-react";
 
 const AppMedia = createMedia({
   breakpoints: {
@@ -19,24 +26,24 @@ const { Media, MediaContextProvider } = AppMedia;
 const menuItems = [
   <Menu.Item
     onClick={() => animateScroll.scrollToTop({ duration: 500 })}
-    name="Home"
+    // name="Home"
     position="right"
     key="Home"
   />,
 
-  <Menu.Item link name="About" key="About">
+  <Menu.Item link key="About">
     <Link to="About" smooth={true} offset={-70} duration={500}>
       About
     </Link>
   </Menu.Item>,
 
-  <Menu.Item link name="Projects" key="Projects">
+  <Menu.Item link key="Projects">
     <Link to="Projects" smooth={true} offset={-70} duration={500}>
       Projects
     </Link>
   </Menu.Item>,
 
-  <Menu.Item link name="Resources" key="Resources">
+  <Menu.Item link key="Resources">
     <Link to="Resources" smooth={true} offset={-70} duration={500}>
       Skills
     </Link>
@@ -66,18 +73,23 @@ function NavbarMobile(props) {
         items={menuItems}
         vertical
         visible={visible}
+        style={{
+          background: "#2C2F33",
+        }}
       />
       <Sidebar.Pusher
         dimmed={visible}
         onClick={onPusherClick}
-        style={{ minHeight: "100vh" }}
+        // style={{ minHeight: "100vh" }}
       >
         <Menu fixed="top" inverted>
           <Menu.Item onClick={onToggle}>
             <Icon name="sidebar" />
           </Menu.Item>
-          {/* <Menu.Menu position="right">{menuItems}</Menu.Menu> */}
         </Menu>
+        <Container>
+          <Button>Click Me</Button>
+        </Container>
       </Sidebar.Pusher>
     </Sidebar.Pushable>
   );
