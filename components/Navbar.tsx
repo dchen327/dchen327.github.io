@@ -64,32 +64,34 @@ function NavbarMobile(props) {
   const { children, menuItems, onPusherClick, onToggle, visible } = props;
 
   return (
-    <Sidebar.Pushable>
-      <Sidebar
-        as={Menu}
-        animation="overlay"
-        icon="labeled"
-        inverted
-        items={menuItems}
-        vertical
-        visible={visible}
-        style={{
-          background: "#2C2F33",
-        }}
-      />
-      <Sidebar.Pusher
-        dimmed={visible}
-        onClick={onPusherClick}
-        style={{ minHeight: "100vh" }}
-      >
-        <Menu fixed="top" inverted>
-          <Menu.Item onClick={onToggle}>
-            <Icon name="sidebar" />
-          </Menu.Item>
-        </Menu>
-        {children}
-      </Sidebar.Pusher>
-    </Sidebar.Pushable>
+    <>
+      <Menu fixed="top" inverted>
+        <Menu.Item onClick={onToggle}>
+          <Icon name="sidebar" />
+        </Menu.Item>
+      </Menu>
+      <Sidebar.Pushable>
+        <Sidebar
+          as={Menu}
+          animation="overlay"
+          icon="labeled"
+          inverted
+          items={menuItems}
+          vertical
+          visible={visible}
+          style={{
+            background: "#2C2F33",
+          }}
+        />
+        <Sidebar.Pusher
+          dimmed={visible}
+          onClick={onPusherClick}
+          style={{ minHeight: "100vh" }}
+        >
+          {children}
+        </Sidebar.Pusher>
+      </Sidebar.Pushable>
+    </>
   );
 }
 
@@ -113,9 +115,10 @@ function NavbarDesktop(props) {
 }
 
 const NavBarChildren = (props: any) => (
-  <Container style={{ margin: 0, marginTop: "5em" }}>
-    {props.children}
-  </Container>
+  // <Container style={{ margin: 0, marginTop: "5em" }}>
+  //   {props.children}
+  // </Container>
+  props.children
 );
 
 export default function Navbar(props: any) {
