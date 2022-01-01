@@ -65,11 +65,6 @@ function NavbarMobile(props) {
 
   return (
     <>
-      <Menu fixed="top" inverted>
-        <Menu.Item onClick={onToggle}>
-          <Icon name="sidebar" />
-        </Menu.Item>
-      </Menu>
       <Sidebar.Pushable>
         <Sidebar
           as={Menu}
@@ -90,6 +85,11 @@ function NavbarMobile(props) {
         >
           {children}
         </Sidebar.Pusher>
+        <Menu fixed="top" inverted>
+          <Menu.Item onClick={onToggle}>
+            <Icon name="sidebar" />
+          </Menu.Item>
+        </Menu>
       </Sidebar.Pushable>
     </>
   );
@@ -114,12 +114,7 @@ function NavbarDesktop(props) {
   );
 }
 
-const NavBarChildren = (props: any) => (
-  // <Container style={{ margin: 0, marginTop: "5em" }}>
-  //   {props.children}
-  // </Container>
-  props.children
-);
+const NavBarChildren = (props: any) => props.children;
 
 export default function Navbar(props: any) {
   const { children } = props;

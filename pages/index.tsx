@@ -22,7 +22,7 @@ function Home() {
           content="https://raw.githubusercontent.com/dchen327/dchen327.github.io/master/public/images/Tropical-sunset.png"
         />
       </Head>
-      <Navbar children={<SplashScreen />} />
+      <Navbar children={[<SplashScreen />, <About />]} />
       {/* <SplashScreen /> */}
       <About />
       <Projects />
