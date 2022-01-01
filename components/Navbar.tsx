@@ -98,15 +98,23 @@ function NavbarDesktop(props) {
 }
 
 export default function Navbar(props) {
-  const visible = useState(false);
+  const [visible, setVisible] = useState(false);
+
+  const handlePusher = () => {
+    if (visible) setVisible(false);
+  };
+
+  const handleToggle = () => {
+    setVisible(!visible);
+  };
 
   return (
     <MediaContextProvider>
       <Media at="mobile">
         <NavbarMobile
           menuItems={menuItems}
-          onPusherClick={onPusherClick}
-          onToggle={onToggle}
+          onPusherClick={this.handlePusher}
+          onToggle={this.handleToggle}
           visible={visible}
         />
       </Media>
