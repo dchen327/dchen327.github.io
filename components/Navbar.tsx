@@ -1,14 +1,7 @@
 import { createMedia } from "@artsy/fresnel";
 import { useState } from "react";
 import { Link, animateScroll } from "react-scroll";
-import {
-  Button,
-  Container,
-  Header,
-  Icon,
-  Menu,
-  Sidebar,
-} from "semantic-ui-react";
+import { Icon, Menu, Sidebar } from "semantic-ui-react";
 
 const AppMedia = createMedia({
   breakpoints: {
@@ -26,7 +19,6 @@ const { Media, MediaContextProvider } = AppMedia;
 const menuItems = [
   <Menu.Item
     onClick={() => animateScroll.scrollToTop({ duration: 500 })}
-    // name="Home"
     position="right"
     key="Home"
   />,
@@ -52,7 +44,6 @@ const menuItems = [
   <Menu.Item
     name="Books"
     key="Books"
-    // as="a"
     href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"
     target="_blank"
   />,
@@ -114,8 +105,6 @@ function NavbarDesktop(props) {
   );
 }
 
-const NavBarChildren = (props: any) => props.children;
-
 export default function Navbar(props: any) {
   const { children } = props;
   const [visible, setVisible] = useState(false);
@@ -136,12 +125,11 @@ export default function Navbar(props: any) {
           onPusherClick={handlePusher}
           onToggle={handleToggle}
           visible={visible}
-          children={<NavBarChildren children={children} />}
+          children={children}
         />
       </Media>
       <Media greaterThan="mobile">
         <NavbarDesktop menuItems={menuItems} />
-        <NavBarChildren children={children} />
       </Media>
     </MediaContextProvider>
   );
