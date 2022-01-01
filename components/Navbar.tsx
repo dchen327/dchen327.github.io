@@ -1,6 +1,16 @@
 import { Link, animateScroll } from "react-scroll";
 import { Menu } from "semantic-ui-react";
 
+const AppMedia = createMedia({
+  breakpoints: {
+    mobile: 320,
+    tablet: 768,
+    computer: 992,
+    largeScreen: 1200,
+    widescreen: 1920,
+  },
+});
+
 export default function Navbar() {
   return (
     <Menu
