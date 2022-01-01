@@ -1,5 +1,7 @@
+import { createMedia } from "@artsy/fresnel";
+import { useState } from "react";
 import { Link, animateScroll } from "react-scroll";
-import { Menu } from "semantic-ui-react";
+import { Icon, Menu, Sidebar } from "semantic-ui-react";
 
 const AppMedia = createMedia({
   breakpoints: {
@@ -11,7 +13,44 @@ const AppMedia = createMedia({
   },
 });
 
-export default function Navbar() {
+const mediaStyles = AppMedia.createMediaStyle();
+const { Media, MediaContextProvider } = AppMedia;
+
+function NavbarMobile(props) {
+  const { menuItems, onPusherClick, onToggle, visible } = props;
+
+  return (
+    <Sidebar.Pushable>
+      <Sidebar
+        as={Menu}
+        animation="overlay"
+        icon="labeled"
+        inverted
+        items={menuItems}
+        vertical
+        visible={visible}
+      />
+      <Sidebar.Pusher
+        dimmed={visible}
+        onClick={onPusherClick}
+        style={{ minHeight: "100vh" }}
+      >
+        <Menu fixed="top" inverted>
+          <Menu.Item onClick={onToggle}>
+            <Icon name="sidebar" />
+          </Menu.Item>
+          <Menu.Menu position="right">
+            {menuItems.map((item) => (
+              <Menu.Item {...item} />
+            ))}
+          </Menu.Menu>
+        </Menu>
+      </Sidebar.Pusher>
+    </Sidebar.Pushable>
+  );
+}
+
+function NavbarDesktop(props) {
   return (
     <Menu
       borderless
@@ -55,5 +94,25 @@ export default function Navbar() {
 
       <Menu.Item name="Resume" href="/resume.pdf" target="_blank" />
     </Menu>
+  );
+}
+
+export default function Navbar(props) {
+  const visible = useState(false);
+
+  return (
+    <MediaContextProvider>
+      <Media at="mobile">
+        <NavbarMobile
+          menuItems={menuItems}
+          onPusherClick={onPusherClick}
+          onToggle={onToggle}
+          visible={visible}
+        />
+      </Media>
+      <Media greaterThan="mobile">
+        <NavbarDesktop menuItems={menuItems} />
+      </Media>
+    </MediaContextProvider>
   );
 }
