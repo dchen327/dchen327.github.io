@@ -61,7 +61,7 @@ const menuItems = [
 ];
 
 function NavbarMobile(props) {
-  const { menuItems, onPusherClick, onToggle, visible } = props;
+  const { children, menuItems, onPusherClick, onToggle, visible } = props;
 
   return (
     <Sidebar.Pushable>
@@ -80,25 +80,26 @@ function NavbarMobile(props) {
       <Sidebar.Pusher
         dimmed={visible}
         onClick={onPusherClick}
-        // style={{ minHeight: "100vh" }}
+        style={{ minHeight: "100vh" }}
       >
         <Menu fixed="top" inverted>
           <Menu.Item onClick={onToggle}>
             <Icon name="sidebar" />
           </Menu.Item>
         </Menu>
-        <Container>
-          <Button>Click Me</Button>
-        </Container>
+        {children}
       </Sidebar.Pusher>
     </Sidebar.Pushable>
   );
 }
 
 function NavbarDesktop(props) {
+  const { children } = props;
+
   return (
     <Menu
       borderless
+      items={menuItems}
       inverted
       fixed="top"
       size="massive"
@@ -106,43 +107,19 @@ function NavbarDesktop(props) {
         background: "#2C2F33",
       }}
     >
-      <Menu.Item
-        onClick={() => animateScroll.scrollToTop({ duration: 500 })}
-        name="Home"
-        position="right"
-      />
-
-      <Menu.Item link name="About">
-        <Link to="About" smooth={true} offset={-70} duration={500}>
-          About
-        </Link>
-      </Menu.Item>
-
-      <Menu.Item link name="Projects">
-        <Link to="Projects" smooth={true} offset={-70} duration={500}>
-          Projects
-        </Link>
-      </Menu.Item>
-
-      <Menu.Item link name="Resources">
-        <Link to="Resources" smooth={true} offset={-70} duration={500}>
-          Skills
-        </Link>
-      </Menu.Item>
-
-      <Menu.Item
-        name="Books"
-        // as="a"
-        href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"
-        target="_blank"
-      />
-
-      <Menu.Item name="Resume" href="/resume.pdf" target="_blank" />
+      {children}
     </Menu>
   );
 }
 
-export default function Navbar(props) {
+const NavBarChildren = (props: any) => (
+  <Container style={{ margin: 0, marginTop: "5em" }}>
+    {props.children}
+  </Container>
+);
+
+export default function Navbar(props: any) {
+  const { children } = props;
   const [visible, setVisible] = useState(false);
 
   const handlePusher = () => {
@@ -161,10 +138,12 @@ export default function Navbar(props) {
           onPusherClick={handlePusher}
           onToggle={handleToggle}
           visible={visible}
+          children={<NavBarChildren children={children} />}
         />
       </Media>
       <Media greaterThan="mobile">
         <NavbarDesktop menuItems={menuItems} />
+        <NavBarChildren children={children} />
       </Media>
     </MediaContextProvider>
   );
