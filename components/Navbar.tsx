@@ -35,21 +35,27 @@ const menuItems = [
     </Link>
   </Menu.Item>,
 
-  <Menu.Item link key="Resources">
-    <Link to="Resources" smooth={true} offset={-70} duration={500}>
+  <Menu.Item key="Skills">
+    <Link to="Skills" smooth={true} offset={-70} duration={500}>
       Skills
     </Link>
   </Menu.Item>,
 
   <Menu.Item
-    as="a"
+    // as="a"
     name="Books"
     key="Books"
     href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"
     target="_blank"
   />,
 
-  <Menu.Item name="Resume" key="Resume" href="/resume.pdf" target="_blank" />,
+  <Menu.Item
+    link
+    name="Resume"
+    key="Resume"
+    href="/resume.pdf"
+    target="_blank"
+  />,
 ];
 
 function NavbarMobile(props) {
@@ -92,18 +98,17 @@ function NavbarDesktop(props) {
 
   return (
     <>
-    <Menu
-      borderless
-      items={menuItems}
-      inverted
-      fixed="top"
-      size="massive"
-      style={{
-        background: "#2C2F33",
-      }}
-    >
-    </Menu>
-    {children}
+      <Menu
+        borderless
+        items={menuItems}
+        inverted
+        fixed="top"
+        size="massive"
+        style={{
+          background: "#2C2F33",
+        }}
+      ></Menu>
+      {children}
     </>
   );
 }
