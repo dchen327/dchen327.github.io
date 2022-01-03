@@ -42,6 +42,7 @@ const menuItems = [
   </Menu.Item>,
 
   <Menu.Item
+    as="a"
     name="Books"
     key="Books"
     href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"
@@ -90,6 +91,7 @@ function NavbarDesktop(props) {
   const { children } = props;
 
   return (
+    <>
     <Menu
       borderless
       items={menuItems}
@@ -100,8 +102,9 @@ function NavbarDesktop(props) {
         background: "#2C2F33",
       }}
     >
-      {children}
     </Menu>
+    {children}
+    </>
   );
 }
 
@@ -129,7 +132,7 @@ export default function Navbar(props: any) {
         />
       </Media>
       <Media greaterThan="mobile">
-        <NavbarDesktop menuItems={menuItems} />
+        <NavbarDesktop menuItems={menuItems} children={children} />
       </Media>
     </MediaContextProvider>
   );
