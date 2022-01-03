@@ -1,6 +1,6 @@
 import { createMedia } from "@artsy/fresnel";
 import { useState } from "react";
-import { Link, animateScroll } from "react-scroll";
+import { Link, animateScroll, scroller } from "react-scroll";
 import { Icon, Menu, Sidebar } from "semantic-ui-react";
 
 const AppMedia = createMedia({
@@ -16,33 +16,39 @@ const AppMedia = createMedia({
 const mediaStyles = AppMedia.createMediaStyle();
 const { Media, MediaContextProvider } = AppMedia;
 
+const scrollConfig = {
+  duration: 500,
+  smooth: true,
+  offset: -65,
+};
+
 const menuItems = [
   <Menu.Item
     onClick={() => animateScroll.scrollToTop({ duration: 500 })}
     position="right"
+    name="Home"
     key="Home"
   />,
 
-  <Menu.Item link key="About">
-    <Link to="About" smooth={true} offset={-70} duration={500}>
-      About
-    </Link>
-  </Menu.Item>,
-
-  <Menu.Item link key="Projects">
-    <Link to="Projects" smooth={true} offset={-70} duration={500}>
-      Projects
-    </Link>
-  </Menu.Item>,
-
-  <Menu.Item key="Skills">
-    <Link to="Skills" smooth={true} offset={-70} duration={500}>
-      Skills
-    </Link>
-  </Menu.Item>,
+  <Menu.Item
+    name="About"
+    key="About"
+    onClick={() => scroller.scrollTo("About", scrollConfig)}
+  />,
 
   <Menu.Item
-    // as="a"
+    name="Projects"
+    key="Projects"
+    onClick={() => scroller.scrollTo("Projects", scrollConfig)}
+  />,
+
+  <Menu.Item
+    name="Skills"
+    key="Skills"
+    onClick={() => scroller.scrollTo("Resources", scrollConfig)}
+  />,
+
+  <Menu.Item
     name="Books"
     key="Books"
     href="https://www.notion.so/Reading-List-29598ddba9b840ada60aaaf47e964c15"
